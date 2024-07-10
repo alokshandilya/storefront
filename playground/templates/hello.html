@@ -1,1 +1,5 @@
-<h1>Hello, Django!</h1>
+{% if full_name %}
+<h1>Hello, {{ full_name }}</h1>
+{% else %}
+<h1>Hello, World!</h1>
+{% endif %}
